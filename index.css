@@ -1,0 +1,63 @@
+body{
+text-align: center;  
+color: aliceblue;
+}
+
+
+
+
+#root{
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+    border-radius: 25px;  /*  to round the corners of the box */
+    display: inline-block; /* this is what does the magic of engulf all the contents , making block level element like h1 shrink, cuz only photo has fixed width of 25 vw , this guarantees ki root utna toh mota hoga hi*/
+
+
+padding: 16px;
+
+ margin-top: 2vh;
+
+}
+
+.pic,p{
+    width: 20vw;
+}
+
+
+.about{
+margin-top: 2rem;
+}
+
+.about,p{
+    text-align: left;
+}
+
+
+
+.pic{
+  
+/* cuz i dont like the pic's orientation  */
+    position: relative;
+
+    left: 2vw;
+    bottom: 2vw;
+
+}
+.footer{
+    margin-top: 1rem;
+}
+.footer i{
+margin: 1rem;
+font-size: 2em;
+
+}
+
+a{
+    text-decoration: none;
+  
+}
+a .fi-brands-github{
+    color: grey;
+}
